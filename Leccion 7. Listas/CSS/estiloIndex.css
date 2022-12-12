@@ -1,0 +1,26 @@
+ol{
+
+    list-style: none;
+    counter-reset: contador;
+
+}
+
+ol li{
+
+    counter-increment: contador;
+
+}
+
+ol li::before{
+
+    content: 'Punto ' counter(contador) ') ';
+
+    color: crimson;
+
+}
+
+ol li::after{
+
+    content: ' xd';
+
+}
