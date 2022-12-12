@@ -1,0 +1,40 @@
+table {
+  border: 4px solid black;
+  border-collapse: collapse;
+  font-family: Papyrus;
+}
+
+caption{
+
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(85, 85, 255);
+    font-style: italic;
+
+}
+
+th {
+  padding: 3px;
+  text-align: center;
+  background-color: rgb(151, 151, 255);
+}
+
+td,
+th {
+  border: 2px solid black;
+}
+
+tr:nth-child(even){
+
+    background-color: rgb(194, 238, 255);
+
+}
+
+tr:nth-child(odd){
+
+    background-color: rgb(194, 255, 195);
+
+}
