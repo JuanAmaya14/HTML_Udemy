@@ -1,0 +1,35 @@
+body{
+
+    background-color: darkgray;
+
+}
+
+iframe {
+
+    border: 2px solid black;
+    width: 90%;
+    height: 250px;
+    margin-bottom: 10px;
+
+}
+
+a:link, a:visited{
+    padding: auto;
+    text-decoration: none;
+    font-family: Papyrus;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    border: 3px solid black;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(155, 155, 255);
+    color: black;
+}
+
+a:hover{
+
+    background-color: aqua;
+    border: 5px solid black;
+
+}

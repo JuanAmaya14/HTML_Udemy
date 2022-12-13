@@ -1,0 +1,42 @@
+h1 {
+  color: darkblue;
+  font-weight: bold;
+  font-family: Papyrus;
+  text-align: center;
+}
+
+h2 {
+  color: darkolivegreen;
+  font-family: verdana;
+}
+
+div {
+  background-color: rgb(191, 255, 189);
+  border: 5px solid rgb(130, 0, 112);
+  text-align: center;
+  margin: 40px;
+}
+
+p a {
+  text-align: center;
+}
+
+.span1 {
+  color: blue;
+  border: 1px solid black;
+}
+
+.span2 {
+  color: blueviolet;
+  font-family: Papyrus;
+  font-weight: bold;
+}
+
+.span3 {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.PCreador {
+  color: blue;
+}
