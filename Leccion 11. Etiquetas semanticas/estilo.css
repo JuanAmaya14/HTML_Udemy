@@ -1,0 +1,97 @@
+header {
+  height: 100px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: black;
+  font-family: Verdana;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+.nav_body, .nav_body a:visited, .nav_body a:active, .nav_body a:link{
+
+    color:rgb(0, 0, 0);
+    float: inline-start;
+    padding-left: 7px;
+    text-decoration: none;
+    float: left;
+    width: 140px;
+    margin-top: 3px;
+    color: white;
+
+}
+
+.nav_body a{
+
+    padding-bottom: 5px;
+    padding-top: 4px;
+
+    border: 1px solid black;
+    display: block;
+    background-color: brown;
+    
+
+}
+
+.nav_body a:hover{
+
+    background-color: burlywood;
+    color: black;
+
+
+}
+
+section{
+
+    float: right;
+    width: 80%;
+    border: 1px solid black;
+    margin-top: 3px;
+    padding-left: 5px;
+    
+    
+}
+
+body{
+
+    background-color: aquamarine;
+
+}
+
+aside{
+
+    float: right;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    color: blue;
+    box-shadow: inset 5px 0 5px -5px rgb(0, 30, 255);
+
+}
+
+footer{
+
+    clear: both;
+    padding: 1px;
+    text-align: center;
+    
+}
+
+footer h3{
+
+    color: black;
+
+}
+
+footer nav a, footer nav a:visited, footer nav a:active, footer nav a:link{
+
+
+    color:black;
+    border: 1px solid rgb(17, 0, 255);
+    padding: 2px;
+
+    text-decoration: none;
+
+}
